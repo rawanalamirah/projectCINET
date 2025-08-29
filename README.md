@@ -54,3 +54,10 @@ npm run dev   # UI at http://localhost:5173</code></pre>
   <li>If login fails, re-run <code>npm run seed:user</code>.</li>
   <li>Reset DB anytime with <code>docker compose down -v &amp;&amp; docker compose up -d</code>.</li>
 </ul>
+
+
+<section>
+  <h2>System Architecture</h2>
+
+<img width="952" height="183" alt="Untitled Diagram drawio drawio (1)" src="https://github.com/user-attachments/assets/6dcde231-177b-41ba-91e8-91730b7438bd" />
+</section>
