@@ -3,7 +3,7 @@ const {jwtSecret} = require('../config');
 
 function requireAuth(req, res, next) {
     const header = req.headers.authorization || '';
-    if (!header.startWith('Bearer ')) {
+    if (!header.startsWith('Bearer ')) {
         return res.status(401).json({ message: 'Missing Token'});
     }
     const token = header.slice(7);
