@@ -1,11 +1,11 @@
-<h1>CINET – Managing Loans App</h1>
+<h1>Managing Loans App</h1>
 <p>A simple full-stack app for branch managers to log in and manage loan applications.</p>
 
 <h2>Tech Stack</h2>
 <ul>
   <li>Frontend: React + Vite (http://localhost:5173)</li>
   <li>Backend: Node.js + Express (http://localhost:4000)</li>
-  <li>Database: PostgreSQL (via Docker on port 5433)</li>
+  <li>Database: PostgreSQL (via Docker on port 5434)</li>
   <li>Auth: JWT (JSON Web Tokens)</li>
 </ul>
 
@@ -51,7 +51,7 @@ npm run dev   # UI at http://localhost:5173</code></pre>
 </ul>
 
 <h2>Notes</h2>
-<ul><img width="952" height="183" alt="Untitled Diagram drawio drawio (1)" src="https://github.com/user-attachments/assets/01656de8-4fe6-4c82-aba5-ed403fb000e4" />
+<ul>
 
   <li>If login fails, re-run <code>npm run seed:user</code>.</li>
   <li>Reset DB anytime with <code>docker compose down -v &amp;&amp; docker compose up -d</code>.</li>

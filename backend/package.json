@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
-    "db:migrate": "docker compose -f ../docker-compose.yml exec -T db psql -U postgres -d cinet < migrations/001init.sql",
-    "db:seed": "docker compose -f ../docker-compose.yml exec -T db psql -U postgres -d cinet < migrations/seed.sql",
+    "db:migrate": "docker compose -f ../docker-compose.yml exec -T db psql -U postgres -d projectDB < migrations/001init.sql",
+    "db:seed": "docker compose -f ../docker-compose.yml exec -T db psql -U postgres -d projectDB < migrations/seed.sql",
     "seed:user": "node scripts/seed-user.js"
   },
   "keywords": [],

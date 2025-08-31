@@ -9,7 +9,7 @@ export default function Shell ({ children}) {
     return (
         <div style={{ maxWidth: 1000, margin: '0 auto', padding: 24}}>
             <header style={{display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 16}}>
-                <h2 style={{ margin:0}}>CINET Loan Manager</h2>
+                <h2 style={{ margin:0}}>projectDB Loan Manager</h2>
                 <nav style={{display: 'flex', gap: 12}}>
                     <Link to="/">Loans</Link>
                     <Link to="/add">Add Loan</Link>
