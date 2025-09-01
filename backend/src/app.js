@@ -34,9 +34,6 @@ app.get('/__routes', (_req, res) => {
   res.json(out);
 });
 
-app.post('/echo', (req, res) => {
-  return res.json({ body: req.body });
-});
 
 app.post('/echo', (req, res) => res.json({ body: req.body }));
 
