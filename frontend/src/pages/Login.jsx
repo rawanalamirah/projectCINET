@@ -28,7 +28,7 @@ export default function Login() {
         }
     }
 
-    return (<div style={{ maxWidth: 380, margin: '15vh auto' }}>
+    return (<div style={{ maxWidth: 380, margin: 200 }}>
       <h3>Branch Manager Login</h3>
       <form onSubmit={onSubmit} style={{ display: 'grid', gap: 10 }}>
         <input placeholder="Username" value={username} onChange={e => setUsername(e.target.value)} />
